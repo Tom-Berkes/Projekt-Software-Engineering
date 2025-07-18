@@ -1,0 +1,1483 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/12/2025 3:07:41 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SH-PF2HQS5J"
+  DTS:CreatorName="SCHWABENHAUS\tom.berkes"
+  DTS:DTSID="{F98D0089-C1A0-4AFB-A780-80507074255A}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5556.0"
+  DTS:LocaleID="1031"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="41"
+  DTS:VersionGUID="{F1CD380F-82CD-4586-AEA1-8E480E992C71}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[10.15.14.20.CAD.CAD]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2CE9640C-4601-49F5-B719-A2052541EE27}"
+      DTS:ObjectName="10.15.14.20.CAD.CAD">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=10.15.14.20;User ID=CAD;Initial Catalog=CAD;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{2CE9640C-4601-49F5-B719-A2052541EE27}10.15.14.20.CAD.CAD;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe3ZqKb6zl0anLC1XrrMfpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAApCcGkPV014UM83tTU5qagz5zDAqrV55jOBa+pctFw7gAAAAAOgAAAAAIAACAAAABY2FjvjkZsEUlyFJh5XfKp3AF8ppOlAO8cyCKvAUly2EAAAABQiSN7qA0HpSptQ7DItdI9RjKvkisMXaTZbG7zQJQFKfUE1esYEJaE/OXtQB/bVGQPlCdYiQvUU0jrvryPs3dVQAAAABtn4AAW7cSO5hcxIBu/9eF9ZYxcq7z6Q/qG67LOrhq99rRmb+F2ogYiH6VJ6VY/MMiOZZUp6nLwPK3kpznJNwM</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ASCII_Datei_einlesen]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{9C286911-C9DB-4870-92DE-588B4372D586}"
+      DTS:ObjectName="ASCII_Datei_einlesen">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[User::Dateiname]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="RaggedRight"
+          DTS:LocaleID="1031"
+          DTS:HeaderRowsToSkip="7"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter="_x000D__x000A_"
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1250">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="8"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Bestellnummer"
+              DTS:DTSID="{8711D5AF-307E-4B3E-9CFA-816A703FDF07}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="11"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Bestelldatum"
+              DTS:DTSID="{E30212D5-CAB8-48A1-8EE7-B0394B0D6E10}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="15"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Status"
+              DTS:DTSID="{89C536B0-57EB-4C51-AEED-720CB6AD9508}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="11"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Liefertermin"
+              DTS:DTSID="{0391B257-170E-4F6E-80F2-CC7EB4E011B9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="13"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Bauvorhabennummer"
+              DTS:DTSID="{71C3CE91-7DF9-4FAD-A171-8AF79E84EA11}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="14"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Bauvorhabenname"
+              DTS:DTSID="{5F2820D0-DA98-4A58-944A-442368DC1F40}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="3"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Kuerzel"
+              DTS:DTSID="{246EC046-AC6B-46C4-AB0E-0AA232788213}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="7"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Kostenstellennummer"
+              DTS:DTSID="{8669CB3C-434A-4686-9195-4FE519D53BE4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="18"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Kostenstellenname"
+              DTS:DTSID="{40D60007-9120-4E9A-A388-0AA9E0C878EB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="8"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Lieferantennummer"
+              DTS:DTSID="{9FE82908-2F95-4A56-8B6E-A77B2E053327}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnDelimiter=""
+              DTS:ColumnWidth="16"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Lieferantenname"
+              DTS:DTSID="{366CDAE5-F346-4A7E-BCCE-9904A625E758}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="1500"
+              DTS:DataType="129"
+              DTS:ObjectName="Titel"
+              DTS:DTSID="{741B5CA2-54B8-40E9-85BB-2AC6309217EE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[sh10sql01.css.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{16D05807-0105-4D93-A366-3E2FF2EDD25C}"
+      DTS:ObjectName="sh10sql01.css.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=sh10sql01.css;User ID=sa;Provider=SSISOLEDB.3;Persist Security Info=True;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe3ZqKb6zl0anLC1XrrMfpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD8pFrJTOQeVSHwLTBno4wvf9C4se+qAYAPyT8IwW21pwAAAAAOgAAAAAIAACAAAAA2M4Ya1XFPN+UqJjq3zjiA87yS0UlaI7HepWWCCV74dCAAAABhJApbN3qUarPqOM0qWpKHlfTm4V7XpzL6qhllPqRWz0AAAACYKoLZRt4xsPpxKbbiVYrwzOadJ8pTsyacXpBHA/P6D9n0+g+ra96FR/I/nz/LoxoDNSuPKyA1cakuSyQ33qN2</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{950CF20B-ECC1-44B6-BB8B-E4159CA38D1D}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Dateiname">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Foreach-Schleifencontainer"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach-Schleifencontainer"
+      DTS:DTSID="{5B80164E-B15D-4C22-B498-FDEAA3AC5793}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Foreach-Schleifencontainer">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachFileEnumerator"
+        DTS:DTSID="{99355B0C-0887-4962-A63C-9811B9D21CAA}"
+        DTS:ObjectName="{99355B0C-0887-4962-A63C-9811B9D21CAA}">
+        <DTS:ObjectData>
+          <ForEachFileEnumeratorProperties>
+            <FEFEProperty
+              Folder="C:\Users\tom.berkes\OneDrive - Schwabenhaus GmbH\Desktop\Projekt Software Engineering" />
+            <FEFEProperty
+              FileSpec="BILDSC01.TXT" />
+            <FEFEProperty
+              FileNameRetrievalType="0" />
+            <FEFEProperty
+              Recurse="0" />
+          </ForEachFileEnumeratorProperties>
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Foreach-Schleifencontainer\Daten übertragen"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Datenflusstask"
+          DTS:DTSID="{71DEB257-21C4-4AC7-A7A6-1B0E0DDD1836}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Daten übertragen"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle"
+                  componentClassID="Microsoft.FlatFileSource"
+                  contactInfo="Flatfilequelle;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Alle Rechte vorbehalten; http://www.microsoft.com/sql/support;1"
+                  description="Flatfilequelle"
+                  localeId="1031"
+                  name="Dateiquelle"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Gibt an, ob Spalten mit der Länge &quot;0&quot; als NULL behandelt werden."
+                      name="RetainNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Gibt den Namen der Ausgabespalte an, die den Dateinamen enthält. Wenn kein Name angegeben wird, wird keine Ausgabespalte generiert, die den Dateinamen enthält."
+                      name="FileNameColumnName"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[ASCII_Datei_einlesen]"
+                      connectionManagerRefId="Package.ConnectionManagers[ASCII_Datei_einlesen]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle]"
+                      name="Ausgabe der Flatfilequelle">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestellnummer]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bestellnummer]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestellnummer]"
+                          name="Bestellnummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestelldatum]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bestelldatum]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestelldatum]"
+                          name="Bestelldatum"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Status]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Status]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Status]"
+                          name="Status"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Liefertermin]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Liefertermin]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Liefertermin]"
+                          name="Liefertermin"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabennummer]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bauvorhabennummer]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabennummer]"
+                          name="Bauvorhabennummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabenname]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bauvorhabenname]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabenname]"
+                          name="Bauvorhabenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kuerzel]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Kuerzel]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kuerzel]"
+                          name="Kuerzel"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellennummer]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Kostenstellennummer]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellennummer]"
+                          name="Kostenstellennummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellenname]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Kostenstellenname]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellenname]"
+                          name="Kostenstellenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantennummer]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Lieferantennummer]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantennummer]"
+                          name="Lieferantennummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantenname]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Lieferantenname]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantenname]"
+                          name="Lieferantenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Titel]"
+                          codePage="1250"
+                          dataType="str"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Titel]"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Titel]"
+                          name="Titel"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Gibt an, ob die Daten im Binärformat sind."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bestellnummer]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Bestellnummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bestelldatum]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Bestelldatum" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Status]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Status" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Liefertermin]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Liefertermin" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bauvorhabennummer]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Bauvorhabennummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Bauvorhabenname]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Bauvorhabenname" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Kuerzel]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Kuerzel" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Kostenstellennummer]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Kostenstellennummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Kostenstellenname]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Kostenstellenname" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Lieferantennummer]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Lieferantennummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Lieferantenname]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Lieferantenname" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[Titel]"
+                          codePage="1250"
+                          dataType="str"
+                          length="1500"
+                          name="Titel" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle]"
+                      isErrorOut="true"
+                      name="Fehlerausgabe der Flatfilequelle">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle].Columns[Fehlerausgabespalte der Flatfilequelle]"
+                          codePage="65001"
+                          dataType="text"
+                          description="Fehlerausgabespalte der Flatfilequelle"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle].Columns[Fehlerausgabespalte der Flatfilequelle]"
+                          name="Fehlerausgabespalte der Flatfilequelle" />
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Fehlerausgabe der Flatfilequelle].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung"
+                  componentClassID="Microsoft.DataConvert"
+                  contactInfo="Datenkonvertierung;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Alle Rechte vorbehalten; http://www.microsoft.com/sql/support;0"
+                  description="Datenkonvertierung"
+                  name="Datenkonvertierung"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung]"
+                      name="Eingabe der Datenkonvertierung">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Bestellnummer]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Bestellnummer"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestellnummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Bestelldatum]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Bestelldatum"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestelldatum]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Status]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Status"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Status]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Liefertermin]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Liefertermin"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Liefertermin]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Bauvorhabennummer]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Bauvorhabennummer"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabennummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Bauvorhabenname]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Bauvorhabenname"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabenname]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Kuerzel]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Kuerzel"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kuerzel]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Kostenstellennummer]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Kostenstellennummer"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellennummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Kostenstellenname]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Kostenstellenname"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellenname]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Lieferantennummer]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Lieferantennummer"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantennummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Lieferantenname]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Lieferantenname"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantenname]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung].Columns[Titel]"
+                          cachedCodepage="1250"
+                          cachedDataType="str"
+                          cachedLength="1500"
+                          cachedName="Titel"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Titel]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung]"
+                      exclusionGroup="1"
+                      name="Ausgabe der Datenkonvertierung"
+                      synchronousInputId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bestellnummer]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bestellnummer]"
+                          name="Copy of Bestellnummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestellnummer]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bestelldatum]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bestelldatum]"
+                          name="Copy of Bestelldatum"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bestelldatum]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Status]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Status]"
+                          name="Copy of Status"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Status]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Liefertermin]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Liefertermin]"
+                          name="Copy of Liefertermin"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Liefertermin]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bauvorhabennummer]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bauvorhabennummer]"
+                          name="Copy of Bauvorhabennummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabennummer]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bauvorhabenname]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bauvorhabenname]"
+                          name="Copy of Bauvorhabenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Bauvorhabenname]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kuerzel]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kuerzel]"
+                          name="Copy of Kuerzel"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kuerzel]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kostenstellennummer]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kostenstellennummer]"
+                          name="Copy of Kostenstellennummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellennummer]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kostenstellenname]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kostenstellenname]"
+                          name="Copy of Kostenstellenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Kostenstellenname]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Lieferantennummer]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Lieferantennummer]"
+                          name="Copy of Lieferantennummer"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantennummer]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Lieferantenname]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Lieferantenname]"
+                          name="Copy of Lieferantenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Lieferantenname]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Titel]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Konvertierung"
+                          errorRowDisposition="FailComponent"
+                          length="1500"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Titel]"
+                          name="Copy of Titel"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Gibt die Eingabespalte an, die als Quelle der Daten für die Konvertierung verwendet wird."
+                              name="SourceInputColumnLineageID">#{Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle].Columns[Titel]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Zeigt an, ob die Spalte die schnelleren gebietsschemaneutralen Analyseroutinen verwendet."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Fehlerausgabe der Datenkonvertierung]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Fehlerausgabe der Datenkonvertierung"
+                      synchronousInputId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Fehlerausgabe der Datenkonvertierung].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Fehlerausgabe der Datenkonvertierung].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Fehlerausgabe der Datenkonvertierung].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Fehlerausgabe der Datenkonvertierung].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB-Ziel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Alle Rechte vorbehalten; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB-Ziel"
+                  name="OLE DB-Ziel"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Die Anzahl der Sekunden für das Timeout eines Befehls. Der Wert &quot;0&quot; zeigt einen unendlichen Timeoutwert an."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Gibt den Namen des zum Öffnen eines Rowsets verwendeten Datenbankobjekts an."
+                      name="OpenRowset">[dbo].[Bestellungen_Test]</property>
+                    <property
+                      dataType="System.String"
+                      description="Gibt die Variable an, die den Namen des zum Öffnen eines Rowsets verwendeten Datenbankobjekts enthält."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="Der auszuführende SQL-Befehl."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Gibt die zu verwendende Spaltencodepage an, wenn keine Codepageinformationen von der Datenquelle verfügbar sind."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Erzwingt die Verwendung des DefaultCodePage-Eigenschaftswerts beim Beschreiben von Zeichendaten."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Gibt den zum Zugreifen auf die Datenbank verwendeten Modus an."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Zeigt an, ob die für Identitätsspalten übergebenen Werte zum Ziel kopiert werden. Bei &quot;False&quot; werden die Werte für Identitätsspalten am Ziel automatisch generiert. Trifft nur zu, wenn die Option &quot;Schnelles Laden&quot; aktiviert ist."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Zeigt an, ob für Spalten, die NULL enthalten, NULL am Ziel eingefügt wird. Bei &quot;False&quot; werden für Spalten, die NULL enthalten, am Ziel die Standardwerte eingefügt. Trifft nur zu, wenn die Option &quot;Schnelles Laden&quot; aktiviert ist."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Gibt die für die Option &quot;Schnelles Laden&quot; zu verwendenden Optionen an. Trifft nur zu, wenn die Option &quot;Schnelles Laden&quot; aktiviert ist."
+                      name="FastLoadOptions"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Gibt an, wann beim Einfügen von Daten Commits ausgegeben werden. Der Wert &quot;0&quot; gibt an, dass ein Commit am Ende des Einfügens von Daten ausgegeben wird. Trifft nur zu, wenn die Option &quot;Schnelles Laden&quot; aktiviert ist."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[10.15.14.20.CAD.CAD]"
+                      connectionManagerRefId="Package.ConnectionManagers[10.15.14.20.CAD.CAD]"
+                      description="Die für den Zugriff auf die Datenbank verwendete OLE DB-Laufzeitverbindung."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels]"
+                      errorOrTruncationOperation="Einfügen"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="Eingabe des OLE DB-Ziels">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Bauvorhabenname]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Bauvorhabenname"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bauvorhabenname]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bauvorhabenname]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Bauvorhabennummer]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Bauvorhabennummer"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bauvorhabennummer]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bauvorhabennummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Bestelldatum]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Bestelldatum"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bestelldatum]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bestelldatum]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Bestellnummer]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Bestellnummer"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bestellnummer]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Bestellnummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Kostenstellenname]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Kostenstellenname"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Kostenstellenname]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kostenstellenname]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Kostenstellennummer]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Kostenstellennummer"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Kostenstellennummer]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kostenstellennummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Kuerzel]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Kuerzel"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Kuerzel]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Kuerzel]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Lieferantenname]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Lieferantenname"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Lieferantenname]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Lieferantenname]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Lieferantennummer]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Lieferantennummer"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Lieferantennummer]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Lieferantennummer]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Liefertermin]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Liefertermin"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Liefertermin]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Liefertermin]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Status]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Status"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Status]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Status]" />
+                        <inputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].Columns[Copy of Titel]"
+                          cachedDataType="wstr"
+                          cachedLength="1500"
+                          cachedName="Copy of Titel"
+                          externalMetadataColumnId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Titel]"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung].Columns[Copy of Titel]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bestellnummer]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Bestellnummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bestelldatum]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Bestelldatum" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Status]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Status" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Liefertermin]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Liefertermin" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bauvorhabennummer]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Bauvorhabennummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Bauvorhabenname]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Bauvorhabenname" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Kuerzel]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Kuerzel" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Kostenstellennummer]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Kostenstellennummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Kostenstellenname]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Kostenstellenname" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Lieferantennummer]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Lieferantennummer" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Lieferantenname]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Lieferantenname" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[Titel]"
+                          dataType="wstr"
+                          length="1500"
+                          name="Titel" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Outputs[Fehlerausgabe des OLE DB-Ziels]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Fehlerausgabe des OLE DB-Ziels"
+                      synchronousInputId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Outputs[Fehlerausgabe des OLE DB-Ziels].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Outputs[Fehlerausgabe des OLE DB-Ziels].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Outputs[Fehlerausgabe des OLE DB-Ziels].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Outputs[Fehlerausgabe des OLE DB-Ziels].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Foreach-Schleifencontainer\Daten übertragen.Paths[Ausgabe der Datenkonvertierung]"
+                  endId="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel.Inputs[Eingabe des OLE DB-Ziels]"
+                  name="Ausgabe der Datenkonvertierung"
+                  startId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Outputs[Ausgabe der Datenkonvertierung]" />
+                <path
+                  refId="Package\Foreach-Schleifencontainer\Daten übertragen.Paths[Ausgabe der Flatfilequelle]"
+                  endId="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung.Inputs[Eingabe der Datenkonvertierung]"
+                  name="Ausgabe der Flatfilequelle"
+                  startId="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle.Outputs[Ausgabe der Flatfilequelle]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach-Schleifencontainer\Tabelle leeren"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tabelle leeren"
+          DTS:DTSID="{218467A5-8EBE-4429-A722-7417D237A0F2}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Tabelle leeren"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{2CE9640C-4601-49F5-B719-A2052541EE27}"
+              SQLTask:SqlStatementSource="Delete FROM [CAD].[dbo].[Bestellungen_Test]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach-Schleifencontainer.PrecedenceConstraints[Einschränkung]"
+          DTS:CreationName=""
+          DTS:DTSID="{19779180-5DE6-4B26-B2B9-48CA0D73A3F5}"
+          DTS:From="Package\Foreach-Schleifencontainer\Tabelle leeren"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Einschränkung"
+          DTS:To="Package\Foreach-Schleifencontainer\Daten übertragen" />
+      </DTS:PrecedenceConstraints>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{CB233008-1F84-4C0B-B942-E0D5B42EC5F0}"
+          DTS:ObjectName="{CB233008-1F84-4C0B-B942-E0D5B42EC5F0}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::Dateiname" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Dieser CDATA-Abschnitt enthält die Layoutinformationen des Pakets, z.B. Informationen wie X-/Y-Koordinaten, Breite und Höhe.-->
+<!--Wenn Sie diesen Abschnitt manuell ändern und Ihnen ein Fehler unterläuft, können Sie ihn löschen. -->
+<!--Das Paket kann zwar weiterhin normal geladen werden, aber frühere Layoutinformationen gehen verloren, und die Elemente auf der Entwurfsoberfläche werden vom Designer automatisch neu angeordnet.-->
+<Objects
+  Version="8">
+  <!--Jeder darunter liegende Knoten enthält Eigenschaften, die sich nicht auf das Laufzeitverhalten auswirken.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Foreach-Schleifencontainer\Daten übertragen"
+          TopLeft="233,146" />
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Foreach-Schleifencontainer\Tabelle leeren"
+          TopLeft="145,41" />
+        <EdgeLayout
+          Id="Package\Foreach-Schleifencontainer.PrecedenceConstraints[Einschränkung]"
+          TopLeft="238.5,83">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="76.5,63"
+              Start="0,0"
+              End="76.5,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.5"
+                    Point2="0,31.5"
+                    Point3="4,31.5" />
+                  <mssgle:LineSegment
+                    End="72.5,31.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="72.5,31.5"
+                    Point2="76.5,31.5"
+                    Point3="76.5,35.5" />
+                  <mssgle:LineSegment
+                    End="76.5,55.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="712,448"
+          Size="712,491"
+          Id="Package\Foreach-Schleifencontainer"
+          TopLeft="84,72" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Foreach-Schleifencontainer\Daten übertragen">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Foreach-Schleifencontainer\Daten übertragen\Datenkonvertierung"
+          TopLeft="150,290" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Foreach-Schleifencontainer\Daten übertragen\Dateiquelle"
+          TopLeft="198,143" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel"
+          TopLeft="317,457" />
+        <EdgeLayout
+          Id="Package\Foreach-Schleifencontainer\Daten übertragen.Paths[Ausgabe der Flatfilequelle]"
+          TopLeft="265,185">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-27.5,105"
+              Start="0,0"
+              End="-27.5,97.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.5"
+                    Point2="0,52.5"
+                    Point3="-4,52.5" />
+                  <mssgle:LineSegment
+                    End="-23.5,52.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-23.5,52.5"
+                    Point2="-27.5,52.5"
+                    Point3="-27.5,56.5" />
+                  <mssgle:LineSegment
+                    End="-27.5,97.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-37.05947265625,57.5,46.6189453125,9.724609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach-Schleifencontainer\Daten übertragen.Paths[Ausgabe der Datenkonvertierung]"
+          TopLeft="237.5,332">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="150,125"
+              Start="0,0"
+              End="150,117.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,58.5"
+                    Point2="0,62.5"
+                    Point3="4,62.5" />
+                  <mssgle:LineSegment
+                    End="146,62.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="146,62.5"
+                    Point2="150,62.5"
+                    Point3="150,66.5" />
+                  <mssgle:LineSegment
+                    End="150,117.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="51.69052734375,67.5,46.6189453125,9.724609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach-Schleifencontainer\Daten übertragen\OLE DB-Ziel">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

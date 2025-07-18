@@ -1,0 +1,758 @@
+
+2025-07-13 13:39:10,165 INFO: Skript gestartet.
+2025-07-13 13:39:21,298 INFO: f-pps wurde gestartet.
+2025-07-13 13:39:29,323 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:39:29,535 ERROR: 
+2025-07-13 13:39:30,683 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 13:40:38,255 INFO: Skript gestartet.
+2025-07-13 13:40:49,388 INFO: f-pps wurde gestartet.
+2025-07-13 13:40:57,404 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:40:57,587 ERROR: 
+2025-07-13 13:40:58,654 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 13:44:35,386 INFO: Skript gestartet.
+2025-07-13 13:44:46,506 INFO: f-pps wurde gestartet.
+2025-07-13 13:44:54,514 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:44:54,711 ERROR: 
+2025-07-13 13:44:55,862 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 13:49:11,291 INFO: Skript gestartet.
+2025-07-13 13:49:22,534 INFO: f-pps wurde gestartet.
+2025-07-13 13:49:30,547 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:49:30,652 INFO: Benutzername eingegeben.
+2025-07-13 13:49:36,965 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 13:49:39,395 INFO: Bestellwesen ge ffnet.
+2025-07-13 13:49:41,604 ERROR: 
+2025-07-13 13:50:06,426 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 13:53:20,226 INFO: Skript gestartet.
+2025-07-13 13:53:31,202 INFO: fpps.exe wurde beendet.
+2025-07-13 13:53:33,356 INFO: f-pps wurde gestartet.
+2025-07-13 13:53:41,365 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:53:41,472 INFO: Benutzername eingegeben.
+2025-07-13 13:53:47,795 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 13:53:50,208 INFO: Bestellwesen ge ffnet.
+2025-07-13 13:53:52,401 ERROR: 
+2025-07-13 13:53:53,431 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 13:54:51,162 INFO: Skript gestartet.
+2025-07-13 13:55:02,325 INFO: f-pps wurde gestartet.
+2025-07-13 13:55:10,335 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:55:10,848 INFO: Benutzername eingegeben.
+2025-07-13 13:55:17,161 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 13:55:19,573 INFO: Bestellwesen ge ffnet.
+2025-07-13 13:55:21,958 INFO: Bestellung ge ffnet.
+2025-07-13 13:55:24,373 INFO: Listen ge ffnet.
+2025-07-13 13:55:31,123 INFO: Ascii gew hlt.
+2025-07-13 13:55:33,523 INFO: Ausgeben ausgef hrt.
+2025-07-13 13:57:52,373 INFO: Skript gestartet.
+2025-07-13 13:58:03,546 INFO: f-pps wurde gestartet.
+2025-07-13 13:58:11,555 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 13:58:11,762 ERROR: 
+2025-07-13 13:58:12,629 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 13:59:45,675 INFO: Skript gestartet.
+2025-07-13 13:59:56,809 INFO: f-pps wurde gestartet.
+2025-07-13 14:00:04,820 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:00:05,034 ERROR: 
+2025-07-13 14:00:05,869 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:03:45,600 INFO: Skript gestartet.
+2025-07-13 14:03:56,737 INFO: f-pps wurde gestartet.
+2025-07-13 14:04:04,760 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:04:04,947 ERROR: 
+2025-07-13 14:04:05,921 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:07:07,814 INFO: Skript gestartet.
+2025-07-13 14:07:19,052 INFO: f-pps wurde gestartet.
+2025-07-13 14:07:27,060 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:07:27,557 INFO: Benutzername eingegeben.
+2025-07-13 14:07:33,880 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:07:36,282 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:07:38,683 INFO: Bestellung ge ffnet.
+2025-07-13 14:07:41,083 INFO: Listen ge ffnet.
+2025-07-13 14:07:47,776 INFO: Ascii gew hlt.
+2025-07-13 14:07:50,157 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:07:50,693 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:07:50,714 INFO: Datei exportiert und kopiert.
+2025-07-13 14:07:50,714 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:11:27,058 INFO: Skript gestartet.
+2025-07-13 14:11:38,664 INFO: f-pps wurde gestartet.
+2025-07-13 14:11:46,672 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:11:46,882 ERROR: 
+2025-07-13 14:11:47,828 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:12:24,936 INFO: Skript gestartet.
+2025-07-13 14:12:36,104 INFO: f-pps wurde gestartet.
+2025-07-13 14:12:44,113 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:12:44,291 ERROR: 
+2025-07-13 14:12:45,180 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:12:58,916 INFO: Skript gestartet.
+2025-07-13 14:13:10,079 INFO: f-pps wurde gestartet.
+2025-07-13 14:13:18,093 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:13:18,288 ERROR: 
+2025-07-13 14:13:19,095 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:13:41,569 INFO: Skript gestartet.
+2025-07-13 14:13:52,787 INFO: f-pps wurde gestartet.
+2025-07-13 14:14:00,804 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:14:01,308 INFO: Benutzername eingegeben.
+2025-07-13 14:14:07,619 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:14:10,062 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:14:12,512 INFO: Bestellung ge ffnet.
+2025-07-13 14:14:14,962 INFO: Listen ge ffnet.
+2025-07-13 14:14:21,715 INFO: Ascii gew hlt.
+2025-07-13 14:14:24,114 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:14:24,659 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:14:24,681 INFO: Datei exportiert und kopiert.
+2025-07-13 14:14:24,681 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:17:06,742 INFO: Skript gestartet.
+2025-07-13 14:17:17,959 INFO: f-pps wurde gestartet.
+2025-07-13 14:17:25,974 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:17:26,515 INFO: Benutzername eingegeben.
+2025-07-13 14:17:32,832 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:17:35,226 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:17:37,627 INFO: Bestellung ge ffnet.
+2025-07-13 14:17:40,044 INFO: Listen ge ffnet.
+2025-07-13 14:17:46,763 INFO: Ascii gew hlt.
+2025-07-13 14:17:49,143 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:17:49,672 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:17:49,675 ERROR: Unbehandelter Fehler: [Errno 2] No such file or directory: 'C:\\isoft\\f-pps\\userdat\\BILDSC01.TXT'
+Traceback (most recent call last):
+  File "c:\Users\tom.berkes\OneDrive - Schwabenhaus GmbH\Desktop\Projekt Software Engineering\rpa.py", line 238, in main
+    shutil.copyfile(quellpfad, export_pfad)
+  File "c:\Users\tom.berkes\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\isoft\\f-pps\\userdat\\BILDSC01.TXT'
+2025-07-13 14:17:50,518 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:20:14,760 INFO: Skript gestartet.
+2025-07-13 14:20:25,938 INFO: f-pps wurde gestartet.
+2025-07-13 14:20:33,953 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:20:34,482 INFO: Benutzername eingegeben.
+2025-07-13 14:20:40,796 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:20:43,291 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:20:45,693 INFO: Bestellung ge ffnet.
+2025-07-13 14:20:48,125 INFO: Listen ge ffnet.
+2025-07-13 14:20:54,841 INFO: Ascii gew hlt.
+2025-07-13 14:20:57,259 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:20:57,761 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:20:57,769 INFO: Datei exportiert und kopiert.
+2025-07-13 14:20:57,770 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:21:08,309 INFO: SSIS-Paket ausgef hrt. R ckgabe: 1
+2025-07-13 14:21:08,310 ERROR: SSIS-Paket Fehler: 
+2025-07-13 14:21:09,259 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:23:29,922 INFO: Skript gestartet.
+2025-07-13 14:23:41,041 INFO: f-pps wurde gestartet.
+2025-07-13 14:23:49,050 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:23:49,564 INFO: Benutzername eingegeben.
+2025-07-13 14:23:55,889 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:23:58,308 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:24:00,707 INFO: Bestellung ge ffnet.
+2025-07-13 14:24:03,091 INFO: Listen ge ffnet.
+2025-07-13 14:24:09,823 INFO: Ascii gew hlt.
+2025-07-13 14:24:12,209 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:24:12,707 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:24:12,714 INFO: Datei exportiert und kopiert.
+2025-07-13 14:24:12,715 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:24:22,409 INFO: SSIS-Paket ausgef hrt. R ckgabe: 1
+2025-07-13 14:24:22,409 ERROR: SSIS-Paket Fehler: 
+2025-07-13 14:24:23,457 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:35:53,066 INFO: Skript gestartet.
+2025-07-13 14:36:04,276 INFO: f-pps wurde gestartet.
+2025-07-13 14:36:12,291 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:36:12,819 INFO: Benutzername eingegeben.
+2025-07-13 14:36:19,131 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:36:21,516 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:36:23,949 INFO: Bestellung ge ffnet.
+2025-07-13 14:36:26,352 INFO: Listen ge ffnet.
+2025-07-13 14:36:33,066 INFO: Ascii gew hlt.
+2025-07-13 14:36:35,482 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:36:35,990 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:36:35,998 INFO: Datei exportiert und kopiert.
+2025-07-13 14:36:37,999 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:36:48,394 INFO: SSIS-Paket ausgef hrt. R ckgabe: 1
+2025-07-13 14:36:48,394 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 14:36:49,227 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 14:41:23,647 INFO: Skript gestartet.
+2025-07-13 14:41:34,807 INFO: f-pps wurde gestartet.
+2025-07-13 14:41:42,921 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:41:43,452 INFO: Benutzername eingegeben.
+2025-07-13 14:41:49,765 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:41:52,163 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:41:54,580 INFO: Bestellung ge ffnet.
+2025-07-13 14:41:56,963 INFO: Listen ge ffnet.
+2025-07-13 14:42:03,679 INFO: Ascii gew hlt.
+2025-07-13 14:42:06,097 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:42:06,585 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:42:06,592 INFO: Datei exportiert und kopiert.
+2025-07-13 14:42:08,594 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:42:08,594 INFO: Skript erfolgreich abgeschlossen.
+2025-07-13 14:54:19,199 INFO: Skript gestartet.
+2025-07-13 14:54:30,335 INFO: f-pps wurde gestartet.
+2025-07-13 14:54:38,346 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 14:54:38,883 INFO: Benutzername eingegeben.
+2025-07-13 14:54:45,208 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 14:54:47,622 INFO: Bestellwesen ge ffnet.
+2025-07-13 14:54:50,022 INFO: Bestellung ge ffnet.
+2025-07-13 14:54:52,421 INFO: Listen ge ffnet.
+2025-07-13 14:54:59,106 INFO: Ascii gew hlt.
+2025-07-13 14:55:01,491 INFO: Ausgeben ausgef hrt.
+2025-07-13 14:55:02,010 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 14:55:02,017 INFO: Datei exportiert und kopiert.
+2025-07-13 14:55:04,019 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 14:55:16,223 INFO: SSIS-Paket ausgef hrt. R ckgabe: 1
+2025-07-13 14:55:16,224 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 14:55:17,178 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:00:49,552 INFO: Skript gestartet.
+2025-07-13 15:01:00,684 INFO: f-pps wurde gestartet.
+2025-07-13 15:01:08,697 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:01:09,188 INFO: Benutzername eingegeben.
+2025-07-13 15:01:15,506 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:01:17,903 INFO: Bestellwesen ge ffnet.
+2025-07-13 15:01:20,286 INFO: Bestellung ge ffnet.
+2025-07-13 15:01:22,685 INFO: Listen ge ffnet.
+2025-07-13 15:01:29,417 INFO: Ascii gew hlt.
+2025-07-13 15:01:31,816 INFO: Ausgeben ausgef hrt.
+2025-07-13 15:01:32,346 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:01:32,354 INFO: Datei exportiert und kopiert.
+2025-07-13 15:01:34,355 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:01:36,357 INFO: Datei wurde explizit ge ffnet und wieder geschlossen.
+2025-07-13 15:01:48,570 INFO: SSIS-Paket ausgef hrt. R ckgabe: 1
+2025-07-13 15:01:48,571 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:01:49,532 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:04:34,885 INFO: Skript gestartet.
+2025-07-13 15:04:46,036 INFO: f-pps wurde gestartet.
+2025-07-13 15:04:54,045 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:04:54,587 INFO: Benutzername eingegeben.
+2025-07-13 15:05:00,909 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:05:03,299 INFO: Bestellwesen ge ffnet.
+2025-07-13 15:05:05,473 ERROR: 
+2025-07-13 15:05:06,348 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:05:19,147 INFO: Skript gestartet.
+2025-07-13 15:05:30,314 INFO: f-pps wurde gestartet.
+2025-07-13 15:05:38,331 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:05:38,841 INFO: Benutzername eingegeben.
+2025-07-13 15:05:45,164 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:05:47,568 INFO: Bestellwesen ge ffnet.
+2025-07-13 15:05:49,982 INFO: Bestellung ge ffnet.
+2025-07-13 15:05:52,399 INFO: Listen ge ffnet.
+2025-07-13 15:05:59,116 INFO: Ascii gew hlt.
+2025-07-13 15:06:01,515 INFO: Ausgeben ausgef hrt.
+2025-07-13 15:06:02,072 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:06:02,080 INFO: Datei exportiert und kopiert.
+2025-07-13 15:06:12,082 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:06:14,083 INFO: Datei wurde explizit ge ffnet und wieder geschlossen.
+2025-07-13 15:06:33,852 INFO: SSIS-Paket ausgef hrt. R ckgabe: 1
+2025-07-13 15:06:33,852 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:06:34,660 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:08:05,373 INFO: Skript gestartet.
+2025-07-13 15:08:16,525 INFO: f-pps wurde gestartet.
+2025-07-13 15:08:24,543 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:08:25,068 INFO: Benutzername eingegeben.
+2025-07-13 15:08:31,387 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:08:33,764 INFO: Bestellwesen ge ffnet.
+2025-07-13 15:08:36,181 INFO: Bestellung ge ffnet.
+2025-07-13 15:08:38,567 INFO: Listen ge ffnet.
+2025-07-13 15:08:45,265 INFO: Ascii gew hlt.
+2025-07-13 15:08:47,680 INFO: Ausgeben ausgef hrt.
+2025-07-13 15:08:48,154 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:08:48,161 INFO: Datei exportiert und kopiert.
+2025-07-13 15:08:58,164 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:09:00,168 INFO: Datei wurde explizit ge ffnet und wieder geschlossen.
+2025-07-13 15:09:21,081 INFO: Skript erfolgreich abgeschlossen.
+2025-07-13 15:15:54,635 INFO: Skript gestartet.
+2025-07-13 15:16:05,880 INFO: f-pps wurde gestartet.
+2025-07-13 15:16:13,896 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:16:14,432 INFO: Benutzername eingegeben.
+2025-07-13 15:16:20,759 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:16:23,176 INFO: Bestellwesen geöffnet.
+2025-07-13 15:16:25,610 INFO: Bestellung geöffnet.
+2025-07-13 15:16:28,026 INFO: Listen geöffnet.
+2025-07-13 15:16:34,745 INFO: Ascii gewählt.
+2025-07-13 15:16:37,259 INFO: Ausgeben ausgeführt.
+2025-07-13 15:16:37,769 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:16:37,769 INFO: Datei exportiert und kopiert.
+2025-07-13 15:16:47,771 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:16:49,786 INFO: Datei wurde explizit geöffnet und wieder geschlossen.
+2025-07-13 15:17:09,830 INFO: SSIS-Paket ausgeführt. Rückgabe: 1
+2025-07-13 15:17:09,830 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:17:11,644 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:21:22,675 INFO: Skript gestartet.
+2025-07-13 15:21:33,852 INFO: f-pps wurde gestartet.
+2025-07-13 15:21:41,867 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:21:42,397 INFO: Benutzername eingegeben.
+2025-07-13 15:21:48,713 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:21:51,106 INFO: Bestellwesen geöffnet.
+2025-07-13 15:21:53,525 INFO: Bestellung geöffnet.
+2025-07-13 15:21:55,924 INFO: Listen geöffnet.
+2025-07-13 15:22:02,626 INFO: Ascii gewählt.
+2025-07-13 15:22:05,006 INFO: Ausgeben ausgeführt.
+2025-07-13 15:23:05,538 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:23:05,546 INFO: Datei exportiert und kopiert.
+2025-07-13 15:23:15,548 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:23:17,557 INFO: Datei wurde explizit geöffnet und wieder geschlossen.
+2025-07-13 15:23:37,108 INFO: SSIS-Paket ausgeführt. Rückgabe: 1
+2025-07-13 15:23:37,108 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:23:37,915 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:26:19,020 INFO: Skript gestartet.
+2025-07-13 15:26:30,212 INFO: f-pps wurde gestartet.
+2025-07-13 15:26:38,223 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:26:38,758 INFO: Benutzername eingegeben.
+2025-07-13 15:26:45,080 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:26:47,473 INFO: Bestellwesen geöffnet.
+2025-07-13 15:26:49,877 INFO: Bestellung geöffnet.
+2025-07-13 15:26:52,293 INFO: Listen geöffnet.
+2025-07-13 15:26:59,023 INFO: Ascii gewählt.
+2025-07-13 15:27:01,404 INFO: Ausgeben ausgeführt.
+2025-07-13 15:27:03,931 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:27:13,939 INFO: Datei exportiert und kopiert.
+2025-07-13 15:27:23,942 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:27:25,949 INFO: Datei wurde explizit geöffnet und wieder geschlossen.
+2025-07-13 15:27:46,036 INFO: SSIS-Paket ausgeführt. Rückgabe: 1
+2025-07-13 15:27:46,036 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:27:46,889 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:29:29,614 INFO: Skript gestartet.
+2025-07-13 15:29:40,790 INFO: f-pps wurde gestartet.
+2025-07-13 15:29:48,805 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:29:49,372 INFO: Benutzername eingegeben.
+2025-07-13 15:29:55,686 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:29:58,102 INFO: Bestellwesen geöffnet.
+2025-07-13 15:30:00,535 INFO: Bestellung geöffnet.
+2025-07-13 15:30:02,935 INFO: Listen geöffnet.
+2025-07-13 15:30:09,669 INFO: Ascii gewählt.
+2025-07-13 15:30:12,068 INFO: Ausgeben ausgeführt.
+2025-07-13 15:30:14,587 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:30:24,597 INFO: Datei exportiert und kopiert.
+2025-07-13 15:30:44,567 INFO: SSIS-Paket ausgeführt. Rückgabe: 1
+2025-07-13 15:30:44,567 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:30:45,403 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:32:05,119 INFO: Skript gestartet.
+2025-07-13 15:32:16,223 INFO: f-pps wurde gestartet.
+2025-07-13 15:32:24,236 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:32:24,756 INFO: Benutzername eingegeben.
+2025-07-13 15:32:31,073 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:32:33,451 INFO: Bestellwesen geöffnet.
+2025-07-13 15:32:35,837 INFO: Bestellung geöffnet.
+2025-07-13 15:32:38,236 INFO: Listen geöffnet.
+2025-07-13 15:32:44,967 INFO: Ascii gewählt.
+2025-07-13 15:32:47,383 INFO: Ausgeben ausgeführt.
+2025-07-13 15:32:49,912 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:32:59,918 INFO: Datei exportiert und kopiert.
+2025-07-13 15:33:19,500 INFO: SSIS-Paket ausgeführt. Rückgabe: 1
+2025-07-13 15:33:19,501 ERROR: SSIS-Paket Fehler: stdout: None stderr: 
+2025-07-13 15:33:20,270 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-13 15:57:40,155 INFO: Skript gestartet.
+2025-07-13 15:57:51,390 INFO: f-pps wurde gestartet.
+2025-07-13 15:57:59,403 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 15:57:59,957 INFO: Benutzername eingegeben.
+2025-07-13 15:58:06,271 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 15:58:08,703 INFO: Bestellwesen geöffnet.
+2025-07-13 15:58:11,119 INFO: Bestellung geöffnet.
+2025-07-13 15:58:13,538 INFO: Listen geöffnet.
+2025-07-13 15:58:20,269 INFO: Ascii gewählt.
+2025-07-13 15:58:22,671 INFO: Ausgeben ausgeführt.
+2025-07-13 15:58:25,203 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 15:58:25,210 INFO: Datei exportiert und kopiert.
+2025-07-13 15:58:25,211 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 15:58:34,867 INFO: SSIS-Paket ausgeführt. Rückgabe: 1
+2025-07-13 15:58:34,867 ERROR: SSIS-Paket Fehler: stdout: Microsoft (R) SQL Server Execute Package Utility
+Version 13.0.6300.2 for 64-bit
+Copyright (C) 2016 Microsoft. All rights reserved.
+
+Started:  15:58:25
+Progress: 2025-07-13 15:58:25.72
+   Source: Daten \ufffdbertragen 
+   Validating: 0% complete
+End Progress
+Progress: 2025-07-13 15:58:25.72
+   Source: Daten \ufffdbertragen 
+   Validating: 33% complete
+End Progress
+Progress: 2025-07-13 15:58:25.72
+   Source: Daten \ufffdbertragen 
+   Validating: 66% complete
+End Progress
+Progress: 2025-07-13 15:58:26.21
+   Source: Daten \ufffdbertragen 
+   Validating: 100% complete
+End Progress
+Progress: 2025-07-13 15:58:26.56
+   Source: Tabelle leeren 
+   Die Abfrage "Delete FROM [CAD].[dbo].[Bestellungen_Test]" wird ausgef\ufffdhrt.: 100% complete
+End Progress
+Progress: 2025-07-13 15:58:26.56
+   Source: Daten \ufffdbertragen 
+   Validating: 0% complete
+End Progress
+Progress: 2025-07-13 15:58:26.56
+   Source: Daten \ufffdbertragen 
+   Validating: 33% complete
+End Progress
+Progress: 2025-07-13 15:58:26.56
+   Source: Daten \ufffdbertragen 
+   Validating: 66% complete
+End Progress
+Progress: 2025-07-13 15:58:26.98
+   Source: Daten \ufffdbertragen 
+   Validating: 100% complete
+End Progress
+Warning: 2025-07-13 15:58:26.98
+   Code: 0x80049304
+   Source: Daten \ufffdbertragen SSIS.Pipeline
+   Description: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+End Warning
+Progress: 2025-07-13 15:58:26.98
+   Source: Daten \ufffdbertragen 
+   Prepare for Execute: 0% complete
+End Progress
+Progress: 2025-07-13 15:58:26.98
+   Source: Daten \ufffdbertragen 
+   Prepare for Execute: 33% complete
+End Progress
+Progress: 2025-07-13 15:58:26.98
+   Source: Daten \ufffdbertragen 
+   Prepare for Execute: 66% complete
+End Progress
+Progress: 2025-07-13 15:58:26.98
+   Source: Daten \ufffdbertragen 
+   Prepare for Execute: 100% complete
+End Progress
+Progress: 2025-07-13 15:58:27.09
+   Source: Daten \ufffdbertragen 
+   Pre-Execute: 0% complete
+End Progress
+Progress: 2025-07-13 15:58:27.11
+   Source: Daten \ufffdbertragen 
+   Pre-Execute: 33% complete
+End Progress
+Progress: 2025-07-13 15:58:27.34
+   Source: Daten \ufffdbertragen 
+   Pre-Execute: 66% complete
+End Progress
+Progress: 2025-07-13 15:58:27.35
+   Source: Daten \ufffdbertragen 
+   Pre-Execute: 100% complete
+End Progress
+Warning: 2025-07-13 15:58:27.36
+   Code: 0x8020200F
+   Source: Daten \ufffdbertragen Dateiquelle [2]
+   Description: There is a partial row at the end of the file.
+End Warning
+Progress: 2025-07-13 15:58:34.78
+   Source: Daten \ufffdbertragen 
+   Post Execute: 0% complete
+End Progress
+Progress: 2025-07-13 15:58:34.78
+   Source: Daten \ufffdbertragen 
+   Post Execute: 33% complete
+End Progress
+Progress: 2025-07-13 15:58:34.78
+   Source: Daten \ufffdbertragen 
+   Post Execute: 66% complete
+End Progress
+Progress: 2025-07-13 15:58:34.81
+   Source: Daten \ufffdbertragen 
+   Post Execute: 100% complete
+End Progress
+Progress: 2025-07-13 15:58:34.81
+   Source: Daten \ufffdbertragen 
+   Cleanup: 0% complete
+End Progress
+Progress: 2025-07-13 15:58:34.81
+   Source: Daten \ufffdbertragen 
+   Cleanup: 33% complete
+End Progress
+Progress: 2025-07-13 15:58:34.81
+   Source: Daten \ufffdbertragen 
+   Cleanup: 66% complete
+End Progress
+Progress: 2025-07-13 15:58:34.81
+   Source: Daten \ufffdbertragen 
+   Cleanup: 100% complete
+End Progress
+Error: 2025-07-13 15:58:34.81
+   Code: 0xC000F427
+   Source: Datei l\ufffdschen 
+   Description: To run a SSIS package outside of SQL Server Data Tools you must install Standard Edition (64-bit) of Integration Services or higher.
+End Error
+Warning: 2025-07-13 15:58:34.81
+   Code: 0x80019002
+   Source: Foreach-Schleifencontainer 
+   Description: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (2) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+End Warning
+Warning: 2025-07-13 15:58:34.81
+   Code: 0x80019002
+   Source: Package 
+   Description: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (2) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+End Warning
+DTExec: The package execution returned DTSER_FAILURE (1).
+Started:  15:58:25
+Finished: 15:58:34
+Elapsed:  9.531 seconds
+ stderr: 
+2025-07-13 15:58:35,391 ERROR: Fehler beim Senden der Fehler-E-Mail: 'ascii' codec can't encode character '\ufffd' in position 271: ordinal not in range(128)
+2025-07-13 15:58:35,392 INFO: Skript erfolgreich abgeschlossen.
+2025-07-13 16:08:50,049 INFO: Skript gestartet.
+2025-07-13 16:09:01,246 INFO: f-pps wurde gestartet.
+2025-07-13 16:09:09,258 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 16:09:09,816 INFO: Benutzername eingegeben.
+2025-07-13 16:09:16,127 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 16:09:18,564 INFO: Bestellwesen geöffnet.
+2025-07-13 16:09:21,029 INFO: Bestellung geöffnet.
+2025-07-13 16:09:23,462 INFO: Listen geöffnet.
+2025-07-13 16:09:30,180 INFO: Ascii gewählt.
+2025-07-13 16:09:32,595 INFO: Ausgeben ausgeführt.
+2025-07-13 16:09:35,082 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-13 16:09:35,091 INFO: Datei exportiert und kopiert.
+2025-07-13 16:09:35,091 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-13 16:09:44,935 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-13 16:09:44,937 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-13 16:09:44,937 INFO: Skript erfolgreich abgeschlossen.
+2025-07-13 21:10:30,923 INFO: Skript gestartet.
+2025-07-13 21:10:43,021 INFO: f-pps wurde gestartet.
+2025-07-13 21:10:51,051 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-13 21:10:51,860 INFO: Benutzername eingegeben.
+2025-07-13 21:10:58,200 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-13 21:11:00,521 ERROR: 
+2025-07-13 21:11:01,217 ERROR: Fehler beim Senden der Fehler-E-Mail: 'NoneType' object is not iterable
+2025-07-14 17:23:39,365 INFO: Skript gestartet.
+2025-07-14 17:23:50,659 INFO: f-pps wurde gestartet.
+2025-07-14 17:23:58,668 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-14 17:23:59,162 INFO: Benutzername eingegeben.
+2025-07-14 17:24:05,481 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-14 17:24:07,822 INFO: Bestellwesen geöffnet.
+2025-07-14 17:24:10,174 INFO: Bestellung geöffnet.
+2025-07-14 17:24:12,535 INFO: Listen geöffnet.
+2025-07-14 17:24:19,189 INFO: Ascii gewählt.
+2025-07-14 17:24:21,539 INFO: Ausgeben ausgeführt.
+2025-07-14 17:24:24,092 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-14 17:24:24,102 INFO: Datei exportiert und kopiert.
+2025-07-14 17:24:24,102 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-14 17:24:27,572 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-14 17:24:27,576 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-14 17:28:14,604 ERROR: Integrationstest fehlgeschlagen: Zu wenige DatensÃ¤tze: 277
+
+2025-07-14 17:28:14,605 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-14 17:28:14,605 INFO: Skript erfolgreich abgeschlossen.
+2025-07-14 17:42:04,042 INFO: Skript gestartet.
+2025-07-14 17:42:15,193 INFO: f-pps wurde gestartet.
+2025-07-14 17:42:23,206 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-14 17:42:23,680 INFO: Benutzername eingegeben.
+2025-07-14 17:42:29,994 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-14 17:42:32,345 INFO: Bestellwesen geöffnet.
+2025-07-14 17:42:34,709 INFO: Bestellung geöffnet.
+2025-07-14 17:42:37,066 INFO: Listen geöffnet.
+2025-07-14 17:42:43,722 INFO: Ascii gewählt.
+2025-07-14 17:42:46,060 INFO: Ausgeben ausgeführt.
+2025-07-14 17:42:48,608 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-14 17:42:48,616 INFO: Datei exportiert und kopiert.
+2025-07-14 17:42:48,617 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-14 17:42:50,601 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-14 17:42:50,603 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-14 17:42:52,088 INFO: Integrationstest erfolgreich: 
+2025-07-14 17:42:52,088 INFO: Skript erfolgreich abgeschlossen.
+2025-07-14 17:47:03,530 INFO: Skript gestartet.
+2025-07-14 17:47:14,702 INFO: f-pps wurde gestartet.
+2025-07-14 17:47:22,715 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-14 17:47:23,206 INFO: Benutzername eingegeben.
+2025-07-14 17:47:29,527 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-14 17:47:31,870 INFO: Bestellwesen geöffnet.
+2025-07-14 17:47:34,222 INFO: Bestellung geöffnet.
+2025-07-14 17:47:36,570 INFO: Listen geöffnet.
+2025-07-14 17:47:43,246 INFO: Ascii gewählt.
+2025-07-14 17:47:45,572 INFO: Ausgeben ausgeführt.
+2025-07-14 17:47:48,117 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-14 17:47:48,124 INFO: Datei exportiert und kopiert.
+2025-07-14 17:47:48,125 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-14 17:47:50,101 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-14 17:47:50,103 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-14 17:47:50,979 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-14 17:47:50,986 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-14 17:47:50,986 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-14 17:47:50,987 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-14 17:47:50,987 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-14 17:47:50,987 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-14 17:47:50,987 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-14 17:47:50,987 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-14 17:47:50,988 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-14 17:47:50,988 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-14 17:47:50,988 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-14 17:47:50,988 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-14 17:47:50,988 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-14 17:47:50,989 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-14 17:47:50,989 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-14 17:47:51,587 INFO: Integrationstest erfolgreich: 
+2025-07-14 17:47:51,587 INFO: Skript erfolgreich abgeschlossen.
+2025-07-14 17:48:59,510 INFO: Skript gestartet.
+2025-07-14 17:49:11,255 INFO: f-pps wurde gestartet.
+2025-07-14 17:49:19,268 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-14 17:49:19,749 INFO: Benutzername eingegeben.
+2025-07-14 17:49:26,060 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-14 17:49:28,440 INFO: Bestellwesen geöffnet.
+2025-07-14 17:49:30,786 INFO: Bestellung geöffnet.
+2025-07-14 17:49:33,153 INFO: Listen geöffnet.
+2025-07-14 17:49:39,837 INFO: Ascii gewählt.
+2025-07-14 17:49:42,186 INFO: Ausgeben ausgeführt.
+2025-07-14 17:49:44,769 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-14 17:49:44,776 INFO: Datei exportiert und kopiert.
+2025-07-14 17:49:44,777 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-14 17:49:46,846 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-14 17:49:46,848 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-14 17:49:47,898 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-14 17:49:47,907 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-14 17:49:47,907 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-14 17:49:47,907 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-14 17:49:47,907 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-14 17:49:47,907 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-14 17:49:47,908 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-14 17:49:47,908 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-14 17:49:48,657 INFO: Integrationstest erfolgreich: 
+2025-07-14 17:49:48,658 INFO: Skript erfolgreich abgeschlossen.
+2025-07-14 17:50:51,549 INFO: Skript gestartet.
+2025-07-14 17:51:02,798 INFO: f-pps wurde gestartet.
+2025-07-14 17:51:10,812 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-14 17:51:11,316 INFO: Benutzername eingegeben.
+2025-07-14 17:51:17,630 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-14 17:51:19,990 INFO: Bestellwesen geöffnet.
+2025-07-14 17:51:22,364 INFO: Bestellung geöffnet.
+2025-07-14 17:51:24,712 INFO: Listen geöffnet.
+2025-07-14 17:51:31,382 INFO: Ascii gewählt.
+2025-07-14 17:51:33,728 INFO: Ausgeben ausgeführt.
+2025-07-14 17:51:36,278 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-14 17:51:36,286 INFO: Datei exportiert und kopiert.
+2025-07-14 17:51:36,288 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-14 17:51:38,270 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-14 17:51:38,271 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-14 17:51:39,111 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-14 17:51:39,119 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-14 17:51:39,119 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-14 17:51:39,119 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-14 17:51:39,119 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-14 17:51:39,119 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-14 17:51:39,120 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-14 17:51:39,120 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-14 17:51:39,120 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-14 17:51:39,120 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-14 17:51:39,121 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-14 17:51:39,121 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-14 17:51:39,121 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-14 17:51:39,121 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-14 17:51:39,122 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-14 17:51:39,730 INFO: Integrationstest erfolgreich: 
+2025-07-14 17:51:39,731 INFO: Skript erfolgreich abgeschlossen.
+2025-07-14 21:07:54,155 INFO: Skript gestartet.
+2025-07-14 21:08:05,961 INFO: f-pps wurde gestartet.
+2025-07-14 21:08:13,976 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-14 21:08:14,748 INFO: Benutzername eingegeben.
+2025-07-14 21:08:21,092 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-14 21:08:23,411 ERROR: 
+2025-07-14 21:08:24,752 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-16 20:55:13,058 INFO: Skript gestartet.
+2025-07-16 20:55:15,036 INFO: f-pps wurde gestartet.
+2025-07-16 20:55:23,109 ERROR: Unbehandelter Fehler: Error code from Windows: 0 - Der Vorgang wurde erfolgreich beendet.
+Traceback (most recent call last):
+  File "c:\Users\tom.berkes\OneDrive - Schwabenhaus GmbH\Desktop\Projekt Software Engineering\Modul_1.py", line 74, in main
+    pyautogui.getWindowsWithTitle("i-soft F-PPS")[0].activate()
+  File "c:\Users\tom.berkes\AppData\Local\Programs\Python\Python312\Lib\site-packages\pygetwindow\_pygetwindow_win.py", line 246, in activate
+    _raiseWithLastError()
+  File "c:\Users\tom.berkes\AppData\Local\Programs\Python\Python312\Lib\site-packages\pygetwindow\_pygetwindow_win.py", line 99, in _raiseWithLastError
+    raise PyGetWindowException('Error code from Windows: %s - %s' % (errorCode, _formatMessage(errorCode)))
+pygetwindow.PyGetWindowException: Error code from Windows: 0 - Der Vorgang wurde erfolgreich beendet.
+2025-07-16 20:55:24,814 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-16 20:56:27,620 INFO: Skript gestartet.
+2025-07-16 20:56:29,231 INFO: f-pps wurde gestartet.
+2025-07-16 20:56:37,258 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-16 20:56:37,947 INFO: Benutzername eingegeben.
+2025-07-16 20:56:44,282 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-16 20:56:46,628 ERROR: 
+2025-07-16 20:56:47,653 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-16 20:58:26,578 INFO: Skript gestartet.
+2025-07-16 20:58:27,928 INFO: f-pps wurde gestartet.
+2025-07-16 20:58:35,945 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-16 20:58:36,423 INFO: Benutzername eingegeben.
+2025-07-16 20:58:42,749 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-16 20:58:44,918 ERROR: 
+2025-07-16 20:58:47,468 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-18 19:01:26,690 INFO: Skript gestartet.
+2025-07-18 19:01:27,694 INFO: f-pps wurde gestartet.
+2025-07-18 19:01:35,705 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-18 19:01:36,159 INFO: Benutzername eingegeben.
+2025-07-18 19:01:42,475 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-18 19:01:44,831 INFO: Bestellwesen geöffnet.
+2025-07-18 19:01:46,952 ERROR: 
+2025-07-18 19:01:48,152 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-18 19:02:23,758 INFO: Skript gestartet.
+2025-07-18 19:02:24,810 INFO: f-pps wurde gestartet.
+2025-07-18 19:02:32,819 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-18 19:02:33,293 INFO: Benutzername eingegeben.
+2025-07-18 19:02:39,610 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-18 19:02:41,963 INFO: Bestellwesen geöffnet.
+2025-07-18 19:02:44,114 ERROR: 
+2025-07-18 19:02:45,055 INFO: Fehler-E-Mail erfolgreich versendet.
+2025-07-18 19:04:39,879 INFO: Skript gestartet.
+2025-07-18 19:04:40,956 INFO: f-pps wurde gestartet.
+2025-07-18 19:04:48,965 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-18 19:04:49,419 INFO: Benutzername eingegeben.
+2025-07-18 19:04:55,733 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-18 19:04:58,068 INFO: Bestellwesen geöffnet.
+2025-07-18 19:05:00,382 INFO: Bestellung geöffnet.
+2025-07-18 19:05:02,714 INFO: Listen geöffnet.
+2025-07-18 19:05:09,359 INFO: Ascii gewählt.
+2025-07-18 19:05:11,688 INFO: Ausgeben ausgeführt.
+2025-07-18 19:05:14,183 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-18 19:05:14,193 INFO: Datei exportiert und kopiert.
+2025-07-18 19:05:14,194 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-18 19:05:26,542 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-18 19:05:26,542 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-18 19:05:27,093 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-18 19:05:27,094 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-18 19:05:28,321 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-18 19:05:28,358 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-18 19:05:28,358 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-18 19:05:28,358 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-18 19:05:29,003 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-18 19:05:29,003 INFO: Skript erfolgreich abgeschlossen.
+2025-07-18 19:56:23,337 INFO: Skript gestartet.
+2025-07-18 19:56:24,485 INFO: f-pps wurde gestartet.
+2025-07-18 19:56:32,493 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-18 19:56:33,009 INFO: Benutzername eingegeben.
+2025-07-18 19:56:39,326 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-18 19:56:41,649 INFO: Bestellwesen geÃ¶ffnet.
+2025-07-18 19:56:44,013 INFO: Bestellung geÃ¶ffnet.
+2025-07-18 19:56:46,361 INFO: Listen geÃ¶ffnet.
+2025-07-18 19:56:53,005 INFO: Ascii gewÃ¤hlt.
+2025-07-18 19:56:55,352 INFO: Ausgeben ausgefÃ¼hrt.
+2025-07-18 19:56:57,865 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-18 19:56:57,873 INFO: Datei exportiert und kopiert.
+2025-07-18 19:56:57,874 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-18 19:57:10,422 INFO: SSIS-Paket ausgefÃ¼hrt. RÃ¼ckgabe: 0
+2025-07-18 19:57:10,423 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-18 19:57:11,156 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-18 19:57:11,157 INFO: Datei nach erfolgreichem SSIS-Lauf gelÃ¶scht.
+2025-07-18 19:57:12,459 INFO: Integrationstest: Anzahl DatensÃ¤tze in CAD.dbo.Bestellungen_Test geprÃ¼ft: 277 vorhanden.
+2025-07-18 19:57:12,496 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-18 19:57:12,497 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-18 19:57:12,497 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-18 19:57:12,497 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-18 19:57:12,497 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-18 19:57:12,497 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-18 19:57:12,497 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-18 19:57:12,498 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-18 19:57:12,498 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-18 19:57:12,498 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-18 19:57:12,498 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-18 19:57:12,498 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund SÃ¼d    '
+2025-07-18 19:57:12,498 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-18 19:57:12,499 INFO: Integrationstest ERFOLGREICH: Alle PrÃ¼fungen bestanden und Testdatensatz vollstÃ¤ndig und korrekt in der Datenbank vorhanden.
+2025-07-18 19:57:13,196 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-18 19:57:13,196 INFO: Skript erfolgreich abgeschlossen.
