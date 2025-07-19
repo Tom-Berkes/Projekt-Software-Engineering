@@ -224,7 +224,7 @@ def main():
         logging.info("Ausgeben ausgeführt.")
 
         # Warten auf Export
-        time.sleep(900)  # 15 Minuten
+        time.sleep(600)  # 10 Minuten
 
         # Prüfen, ob bsterf.exe noch läuft
         bsterf_check = "bsterf.exe" in (p.name() for p in psutil.process_iter())
