@@ -2058,4 +2058,717 @@ pygetwindow.PyGetWindowException: Error code from Windows: 0 - Der Vorgang wurde
 2025-07-19 08:31:47,179 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
 2025-07-19 08:31:47,179 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
 2025-07-19 08:31:47,270 INFO: Integrationstest erfolgreich abgeschlossen.
-2025-07-19 08:31:47,270 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 08:31:47,270 INFO: Skript erfolgreich abgeschlossen.2025-07-19 08:51:04,025 INFO: Skript gestartet.
+2025-07-19 08:51:05,142 INFO: f-pps wurde gestartet.
+2025-07-19 08:51:13,156 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 08:51:13,696 INFO: Benutzername eingegeben.
+2025-07-19 08:51:20,009 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 08:51:22,375 INFO: Bestellwesen geöffnet.
+2025-07-19 08:51:24,703 INFO: Bestellung geöffnet.
+2025-07-19 08:51:27,051 INFO: Listen geöffnet.
+2025-07-19 08:51:33,712 INFO: Ascii gewählt.
+2025-07-19 08:51:36,060 INFO: Ausgeben ausgeführt.
+2025-07-19 09:01:36,618 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 09:01:36,626 INFO: Datei exportiert und kopiert.
+2025-07-19 09:01:36,627 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 09:01:46,996 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 09:01:46,996 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:01:47,007 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:01:47,009 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 09:01:47,707 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 09:01:47,741 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 09:01:47,741 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 09:01:47,742 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 09:01:47,742 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 09:01:47,742 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 09:01:47,742 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 09:01:47,742 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 09:01:47,853 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 09:01:47,853 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 09:06:03,735 INFO: Skript gestartet.
+2025-07-19 09:06:04,801 INFO: f-pps wurde gestartet.
+2025-07-19 09:06:12,812 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 09:06:13,365 INFO: Benutzername eingegeben.
+2025-07-19 09:06:19,687 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 09:06:22,014 INFO: Bestellwesen geöffnet.
+2025-07-19 09:06:24,380 INFO: Bestellung geöffnet.
+2025-07-19 09:06:26,729 INFO: Listen geöffnet.
+2025-07-19 09:06:33,370 INFO: Ascii gewählt.
+2025-07-19 09:06:35,718 INFO: Ausgeben ausgeführt.
+2025-07-19 09:16:36,194 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 09:16:36,201 INFO: Datei exportiert und kopiert.
+2025-07-19 09:16:36,202 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 09:16:46,776 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 09:16:46,777 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:16:46,788 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:16:46,790 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 09:16:47,417 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 09:16:47,448 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 09:16:47,449 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 09:16:47,449 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 09:16:47,449 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 09:16:47,449 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 09:16:47,450 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 09:16:47,450 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 09:16:47,568 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 09:16:47,569 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 09:21:03,738 INFO: Skript gestartet.
+2025-07-19 09:21:04,893 INFO: f-pps wurde gestartet.
+2025-07-19 09:21:12,907 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 09:21:13,437 INFO: Benutzername eingegeben.
+2025-07-19 09:21:19,752 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 09:21:22,286 INFO: Bestellwesen geöffnet.
+2025-07-19 09:21:24,619 INFO: Bestellung geöffnet.
+2025-07-19 09:21:26,951 INFO: Listen geöffnet.
+2025-07-19 09:21:33,628 INFO: Ascii gewählt.
+2025-07-19 09:21:35,993 INFO: Ausgeben ausgeführt.
+2025-07-19 09:31:36,603 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 09:31:36,647 INFO: Datei exportiert und kopiert.
+2025-07-19 09:31:36,648 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 09:31:47,979 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 09:31:47,980 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:31:47,996 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:31:47,999 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 09:31:48,767 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 09:31:48,799 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 09:31:48,800 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 09:31:48,800 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 09:31:48,800 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 09:31:48,801 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 09:31:48,801 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 09:31:48,801 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 09:31:48,802 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 09:31:48,802 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 09:31:48,802 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 09:31:48,803 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 09:31:48,803 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 09:31:48,803 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 09:31:48,804 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 09:31:48,895 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 09:31:48,896 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 09:36:03,642 INFO: Skript gestartet.
+2025-07-19 09:36:04,753 INFO: f-pps wurde gestartet.
+2025-07-19 09:36:12,765 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 09:36:13,344 INFO: Benutzername eingegeben.
+2025-07-19 09:36:19,660 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 09:36:22,032 INFO: Bestellwesen geöffnet.
+2025-07-19 09:36:24,363 INFO: Bestellung geöffnet.
+2025-07-19 09:36:26,744 INFO: Listen geöffnet.
+2025-07-19 09:36:33,419 INFO: Ascii gewählt.
+2025-07-19 09:36:35,767 INFO: Ausgeben ausgeführt.
+2025-07-19 09:46:36,263 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 09:46:36,270 INFO: Datei exportiert und kopiert.
+2025-07-19 09:46:36,271 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 09:46:46,663 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 09:46:46,663 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:46:46,674 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 09:46:46,676 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 09:46:47,309 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 09:46:47,344 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 09:46:47,344 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 09:46:47,344 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 09:46:47,345 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 09:46:47,345 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 09:46:47,345 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 09:46:47,345 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 09:46:47,345 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 09:46:47,346 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 09:46:47,346 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 09:46:47,346 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 09:46:47,346 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 09:46:47,346 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 09:46:47,346 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 09:46:47,460 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 09:46:47,460 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 09:51:03,841 INFO: Skript gestartet.
+2025-07-19 09:51:05,163 INFO: f-pps wurde gestartet.
+2025-07-19 09:51:13,173 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 09:51:13,702 INFO: Benutzername eingegeben.
+2025-07-19 09:51:20,019 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 09:51:22,373 INFO: Bestellwesen geöffnet.
+2025-07-19 09:51:24,736 INFO: Bestellung geöffnet.
+2025-07-19 09:51:27,084 INFO: Listen geöffnet.
+2025-07-19 09:51:33,745 INFO: Ascii gewählt.
+2025-07-19 09:51:36,096 INFO: Ausgeben ausgeführt.
+2025-07-19 10:01:36,657 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 10:01:36,666 INFO: Datei exportiert und kopiert.
+2025-07-19 10:01:36,667 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 10:01:46,771 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 10:01:46,771 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:01:46,782 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:01:46,784 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 10:01:47,477 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 10:01:47,505 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 10:01:47,506 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 10:01:47,506 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 10:01:47,506 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 10:01:47,507 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 10:01:47,507 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 10:01:47,507 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 10:01:47,507 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 10:01:47,508 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 10:01:47,508 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 10:01:47,508 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 10:01:47,508 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 10:01:47,508 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 10:01:47,508 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 10:01:47,603 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 10:01:47,604 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 10:06:03,833 INFO: Skript gestartet.
+2025-07-19 10:06:05,236 INFO: f-pps wurde gestartet.
+2025-07-19 10:06:13,251 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 10:06:13,759 INFO: Benutzername eingegeben.
+2025-07-19 10:06:20,076 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 10:06:22,467 INFO: Bestellwesen geöffnet.
+2025-07-19 10:06:24,830 INFO: Bestellung geöffnet.
+2025-07-19 10:06:27,193 INFO: Listen geöffnet.
+2025-07-19 10:06:33,853 INFO: Ascii gewählt.
+2025-07-19 10:06:36,203 INFO: Ausgeben ausgeführt.
+2025-07-19 10:16:36,786 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 10:16:36,796 INFO: Datei exportiert und kopiert.
+2025-07-19 10:16:36,797 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 10:16:46,767 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 10:16:46,768 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:16:46,777 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:16:46,779 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 10:16:47,545 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 10:16:47,583 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 10:16:47,583 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 10:16:47,584 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 10:16:47,584 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 10:16:47,584 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 10:16:47,584 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 10:16:47,585 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 10:16:47,585 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 10:16:47,586 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 10:16:47,586 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 10:16:47,586 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 10:16:47,588 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 10:16:47,588 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 10:16:47,588 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 10:16:47,684 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 10:16:47,684 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 10:21:03,699 INFO: Skript gestartet.
+2025-07-19 10:21:04,999 INFO: f-pps wurde gestartet.
+2025-07-19 10:21:13,010 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 10:21:13,567 INFO: Benutzername eingegeben.
+2025-07-19 10:21:19,883 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 10:21:22,221 INFO: Bestellwesen geöffnet.
+2025-07-19 10:21:24,586 INFO: Bestellung geöffnet.
+2025-07-19 10:21:26,950 INFO: Listen geöffnet.
+2025-07-19 10:21:33,594 INFO: Ascii gewählt.
+2025-07-19 10:21:35,926 INFO: Ausgeben ausgeführt.
+2025-07-19 10:31:36,543 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 10:31:36,557 INFO: Datei exportiert und kopiert.
+2025-07-19 10:31:36,558 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 10:31:46,607 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 10:31:46,608 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:31:46,617 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:31:46,619 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 10:31:47,324 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 10:31:47,358 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 10:31:47,360 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 10:31:47,360 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 10:31:47,360 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 10:31:47,360 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 10:31:47,361 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 10:31:47,361 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 10:31:47,361 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 10:31:47,363 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 10:31:47,363 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 10:31:47,363 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 10:31:47,363 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 10:31:47,363 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 10:31:47,364 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 10:31:47,461 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 10:31:47,461 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 10:36:03,889 INFO: Skript gestartet.
+2025-07-19 10:36:05,236 INFO: f-pps wurde gestartet.
+2025-07-19 10:36:13,250 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 10:36:13,775 INFO: Benutzername eingegeben.
+2025-07-19 10:36:20,088 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 10:36:22,446 INFO: Bestellwesen geöffnet.
+2025-07-19 10:36:24,827 INFO: Bestellung geöffnet.
+2025-07-19 10:36:27,177 INFO: Listen geöffnet.
+2025-07-19 10:36:33,819 INFO: Ascii gewählt.
+2025-07-19 10:36:36,166 INFO: Ausgeben ausgeführt.
+2025-07-19 10:46:36,715 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 10:46:36,728 INFO: Datei exportiert und kopiert.
+2025-07-19 10:46:36,729 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 10:46:46,887 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 10:46:46,887 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:46:46,898 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 10:46:46,900 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 10:46:47,598 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 10:46:47,630 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 10:46:47,631 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 10:46:47,631 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 10:46:47,632 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 10:46:47,632 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 10:46:47,632 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 10:46:47,632 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 10:46:47,633 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 10:46:47,633 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 10:46:47,633 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 10:46:47,633 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 10:46:47,633 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 10:46:47,633 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 10:46:47,633 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 10:46:47,734 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 10:46:47,734 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 10:51:03,571 INFO: Skript gestartet.
+2025-07-19 10:51:04,691 INFO: f-pps wurde gestartet.
+2025-07-19 10:51:12,707 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 10:51:13,251 INFO: Benutzername eingegeben.
+2025-07-19 10:51:19,573 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 10:51:21,904 INFO: Bestellwesen geöffnet.
+2025-07-19 10:51:24,252 INFO: Bestellung geöffnet.
+2025-07-19 10:51:26,583 INFO: Listen geöffnet.
+2025-07-19 10:51:33,247 INFO: Ascii gewählt.
+2025-07-19 10:51:35,592 INFO: Ausgeben ausgeführt.
+2025-07-19 11:01:36,164 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 11:01:36,175 INFO: Datei exportiert und kopiert.
+2025-07-19 11:01:36,176 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 11:01:46,839 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 11:01:46,840 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:01:46,849 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:01:46,851 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 11:01:47,504 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 11:01:47,539 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 11:01:47,539 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 11:01:47,540 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 11:01:47,540 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 11:01:47,540 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 11:01:47,540 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 11:01:47,541 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 11:01:47,541 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 11:01:47,541 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 11:01:47,542 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 11:01:47,542 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 11:01:47,542 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 11:01:47,542 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 11:01:47,543 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 11:01:47,639 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 11:01:47,639 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 11:06:03,728 INFO: Skript gestartet.
+2025-07-19 11:06:04,888 INFO: f-pps wurde gestartet.
+2025-07-19 11:06:12,899 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 11:06:13,408 INFO: Benutzername eingegeben.
+2025-07-19 11:06:19,725 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 11:06:22,062 INFO: Bestellwesen geöffnet.
+2025-07-19 11:06:24,410 INFO: Bestellung geöffnet.
+2025-07-19 11:06:26,774 INFO: Listen geöffnet.
+2025-07-19 11:06:33,438 INFO: Ascii gewählt.
+2025-07-19 11:06:35,765 INFO: Ausgeben ausgeführt.
+2025-07-19 11:16:36,420 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 11:16:36,435 INFO: Datei exportiert und kopiert.
+2025-07-19 11:16:36,436 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 11:16:47,586 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 11:16:47,587 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:16:47,596 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:16:47,598 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 11:16:48,400 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 11:16:48,437 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 11:16:48,437 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 11:16:48,437 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 11:16:48,438 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 11:16:48,438 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 11:16:48,438 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 11:16:48,438 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 11:16:48,438 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 11:16:48,439 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 11:16:48,439 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 11:16:48,439 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 11:16:48,439 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 11:16:48,440 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 11:16:48,440 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 11:16:48,537 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 11:16:48,538 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 11:21:03,620 INFO: Skript gestartet.
+2025-07-19 11:21:04,784 INFO: f-pps wurde gestartet.
+2025-07-19 11:21:12,807 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 11:21:13,349 INFO: Benutzername eingegeben.
+2025-07-19 11:21:19,669 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 11:21:22,020 INFO: Bestellwesen geöffnet.
+2025-07-19 11:21:24,384 INFO: Bestellung geöffnet.
+2025-07-19 11:21:26,735 INFO: Listen geöffnet.
+2025-07-19 11:21:33,393 INFO: Ascii gewählt.
+2025-07-19 11:21:35,760 INFO: Ausgeben ausgeführt.
+2025-07-19 11:31:36,380 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 11:31:36,389 INFO: Datei exportiert und kopiert.
+2025-07-19 11:31:36,390 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 11:31:46,586 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 11:31:46,588 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:31:46,601 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:31:46,602 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 11:31:47,338 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 11:31:47,370 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 11:31:47,370 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 11:31:47,371 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 11:31:47,371 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 11:31:47,372 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 11:31:47,372 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 11:31:47,372 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 11:31:47,373 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 11:31:47,373 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 11:31:47,373 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 11:31:47,374 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 11:31:47,374 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 11:31:47,374 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 11:31:47,374 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 11:31:47,464 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 11:31:47,465 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 11:36:03,684 INFO: Skript gestartet.
+2025-07-19 11:36:04,848 INFO: f-pps wurde gestartet.
+2025-07-19 11:36:12,871 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 11:36:13,396 INFO: Benutzername eingegeben.
+2025-07-19 11:36:19,716 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 11:36:22,069 INFO: Bestellwesen geöffnet.
+2025-07-19 11:36:24,449 INFO: Bestellung geöffnet.
+2025-07-19 11:36:26,800 INFO: Listen geöffnet.
+2025-07-19 11:36:33,459 INFO: Ascii gewählt.
+2025-07-19 11:36:35,824 INFO: Ausgeben ausgeführt.
+2025-07-19 11:46:36,515 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 11:46:36,526 INFO: Datei exportiert und kopiert.
+2025-07-19 11:46:36,527 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 11:46:46,908 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 11:46:46,908 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:46:46,917 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 11:46:46,918 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 11:46:47,627 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 11:46:47,663 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 11:46:47,664 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 11:46:47,664 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 11:46:47,665 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 11:46:47,665 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 11:46:47,666 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 11:46:47,666 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 11:46:47,667 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 11:46:47,667 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 11:46:47,667 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 11:46:47,667 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 11:46:47,668 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 11:46:47,668 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 11:46:47,669 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 11:46:47,771 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 11:46:47,772 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 11:51:03,701 INFO: Skript gestartet.
+2025-07-19 11:51:04,857 INFO: f-pps wurde gestartet.
+2025-07-19 11:51:12,869 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 11:51:13,388 INFO: Benutzername eingegeben.
+2025-07-19 11:51:19,707 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 11:51:22,054 INFO: Bestellwesen geöffnet.
+2025-07-19 11:51:24,419 INFO: Bestellung geöffnet.
+2025-07-19 11:51:26,818 INFO: Listen geöffnet.
+2025-07-19 11:51:33,480 INFO: Ascii gewählt.
+2025-07-19 11:51:35,827 INFO: Ausgeben ausgeführt.
+2025-07-19 12:01:36,566 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 12:01:36,581 INFO: Datei exportiert und kopiert.
+2025-07-19 12:01:36,582 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 12:01:47,058 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 12:01:47,058 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:01:47,068 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:01:47,070 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 12:01:47,773 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 12:01:47,807 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 12:01:47,807 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 12:01:47,807 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 12:01:47,807 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 12:01:47,808 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 12:01:47,808 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 12:01:47,808 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 12:01:47,809 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 12:01:47,809 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 12:01:47,809 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 12:01:47,809 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 12:01:47,810 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 12:01:47,810 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 12:01:47,810 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 12:01:47,904 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 12:01:47,904 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 12:06:03,825 INFO: Skript gestartet.
+2025-07-19 12:06:05,006 INFO: f-pps wurde gestartet.
+2025-07-19 12:06:13,020 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 12:06:13,540 INFO: Benutzername eingegeben.
+2025-07-19 12:06:19,855 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 12:06:22,212 INFO: Bestellwesen geöffnet.
+2025-07-19 12:06:24,544 INFO: Bestellung geöffnet.
+2025-07-19 12:06:26,909 INFO: Listen geöffnet.
+2025-07-19 12:06:33,588 INFO: Ascii gewählt.
+2025-07-19 12:06:35,935 INFO: Ausgeben ausgeführt.
+2025-07-19 12:16:36,552 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 12:16:36,560 INFO: Datei exportiert und kopiert.
+2025-07-19 12:16:36,561 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 12:16:46,760 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 12:16:46,761 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:16:46,772 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:16:46,774 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 12:16:47,438 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 12:16:47,502 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 12:16:47,502 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 12:16:47,503 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 12:16:47,503 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 12:16:47,503 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 12:16:47,504 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 12:16:47,504 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 12:16:47,504 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 12:16:47,505 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 12:16:47,505 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 12:16:47,505 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 12:16:47,505 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 12:16:47,505 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 12:16:47,506 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 12:16:47,633 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 12:16:47,634 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 12:21:03,453 INFO: Skript gestartet.
+2025-07-19 12:21:04,565 INFO: f-pps wurde gestartet.
+2025-07-19 12:21:12,580 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 12:21:13,085 INFO: Benutzername eingegeben.
+2025-07-19 12:21:19,397 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 12:21:21,737 INFO: Bestellwesen geöffnet.
+2025-07-19 12:21:24,086 INFO: Bestellung geöffnet.
+2025-07-19 12:21:26,448 INFO: Listen geöffnet.
+2025-07-19 12:21:33,109 INFO: Ascii gewählt.
+2025-07-19 12:21:35,457 INFO: Ausgeben ausgeführt.
+2025-07-19 12:31:36,190 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 12:31:36,203 INFO: Datei exportiert und kopiert.
+2025-07-19 12:31:36,204 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 12:31:46,778 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 12:31:46,779 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:31:46,788 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:31:46,790 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 12:31:47,499 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 12:31:47,537 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 12:31:47,538 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 12:31:47,538 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 12:31:47,539 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 12:31:47,539 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 12:31:47,540 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 12:31:47,540 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 12:31:47,541 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 12:31:47,541 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 12:31:47,541 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 12:31:47,542 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 12:31:47,542 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 12:31:47,543 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 12:31:47,543 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 12:31:47,636 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 12:31:47,636 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 12:36:03,862 INFO: Skript gestartet.
+2025-07-19 12:36:05,001 INFO: f-pps wurde gestartet.
+2025-07-19 12:36:13,034 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 12:36:13,539 INFO: Benutzername eingegeben.
+2025-07-19 12:36:19,854 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 12:36:22,193 INFO: Bestellwesen geöffnet.
+2025-07-19 12:36:24,541 INFO: Bestellung geöffnet.
+2025-07-19 12:36:26,892 INFO: Listen geöffnet.
+2025-07-19 12:36:33,569 INFO: Ascii gewählt.
+2025-07-19 12:36:35,948 INFO: Ausgeben ausgeführt.
+2025-07-19 12:46:36,582 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 12:46:36,592 INFO: Datei exportiert und kopiert.
+2025-07-19 12:46:36,592 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 12:46:47,562 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 12:46:47,563 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:46:47,572 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 12:46:47,574 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 12:46:48,298 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 12:46:48,328 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 12:46:48,328 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 12:46:48,328 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 12:46:48,328 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 12:46:48,328 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 12:46:48,329 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 12:46:48,329 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 12:46:48,422 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 12:46:48,422 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 12:51:03,819 INFO: Skript gestartet.
+2025-07-19 12:51:04,980 INFO: f-pps wurde gestartet.
+2025-07-19 12:51:13,010 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 12:51:13,525 INFO: Benutzername eingegeben.
+2025-07-19 12:51:19,846 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 12:51:22,176 INFO: Bestellwesen geöffnet.
+2025-07-19 12:51:24,538 INFO: Bestellung geöffnet.
+2025-07-19 12:51:26,889 INFO: Listen geöffnet.
+2025-07-19 12:51:33,580 INFO: Ascii gewählt.
+2025-07-19 12:51:35,945 INFO: Ausgeben ausgeführt.
+2025-07-19 13:01:36,511 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 13:01:36,519 INFO: Datei exportiert und kopiert.
+2025-07-19 13:01:36,519 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 13:01:46,844 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 13:01:46,845 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:01:46,856 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:01:46,857 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 13:01:47,512 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 13:01:47,546 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 13:01:47,546 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 13:01:47,547 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 13:01:47,547 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 13:01:47,547 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 13:01:47,547 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 13:01:47,548 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 13:01:47,548 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 13:01:47,646 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 13:01:47,646 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 13:06:03,790 INFO: Skript gestartet.
+2025-07-19 13:06:04,920 INFO: f-pps wurde gestartet.
+2025-07-19 13:06:12,943 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 13:06:13,454 INFO: Benutzername eingegeben.
+2025-07-19 13:06:19,775 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 13:06:22,112 INFO: Bestellwesen geöffnet.
+2025-07-19 13:06:24,479 INFO: Bestellung geöffnet.
+2025-07-19 13:06:26,825 INFO: Listen geöffnet.
+2025-07-19 13:06:33,486 INFO: Ascii gewählt.
+2025-07-19 13:06:35,850 INFO: Ausgeben ausgeführt.
+2025-07-19 13:16:36,421 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 13:16:36,428 INFO: Datei exportiert und kopiert.
+2025-07-19 13:16:36,429 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 13:16:46,655 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 13:16:46,657 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:16:46,669 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:16:46,671 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 13:16:47,406 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 13:16:47,443 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 13:16:47,443 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 13:16:47,444 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 13:16:47,444 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 13:16:47,445 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 13:16:47,445 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 13:16:47,445 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 13:16:47,446 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 13:16:47,446 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 13:16:47,446 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 13:16:47,447 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 13:16:47,447 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 13:16:47,447 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 13:16:47,448 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 13:16:47,543 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 13:16:47,543 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 13:21:04,009 INFO: Skript gestartet.
+2025-07-19 13:21:05,293 INFO: f-pps wurde gestartet.
+2025-07-19 13:21:13,317 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 13:21:13,840 INFO: Benutzername eingegeben.
+2025-07-19 13:21:20,156 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 13:21:22,512 INFO: Bestellwesen geöffnet.
+2025-07-19 13:21:24,875 INFO: Bestellung geöffnet.
+2025-07-19 13:21:27,209 INFO: Listen geöffnet.
+2025-07-19 13:21:33,884 INFO: Ascii gewählt.
+2025-07-19 13:21:36,233 INFO: Ausgeben ausgeführt.
+2025-07-19 13:31:36,898 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 13:31:36,926 INFO: Datei exportiert und kopiert.
+2025-07-19 13:31:36,928 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 13:31:47,503 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 13:31:47,504 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:31:47,515 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:31:47,517 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 13:31:48,389 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 13:31:48,451 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 13:31:48,451 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 13:31:48,451 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 13:31:48,452 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 13:31:48,453 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 13:31:48,453 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 13:31:48,453 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 13:31:48,453 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 13:31:48,693 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 13:31:48,694 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 13:36:03,932 INFO: Skript gestartet.
+2025-07-19 13:36:05,060 INFO: f-pps wurde gestartet.
+2025-07-19 13:36:13,082 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 13:36:13,659 INFO: Benutzername eingegeben.
+2025-07-19 13:36:19,982 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 13:36:22,322 INFO: Bestellwesen geöffnet.
+2025-07-19 13:36:24,670 INFO: Bestellung geöffnet.
+2025-07-19 13:36:27,068 INFO: Listen geöffnet.
+2025-07-19 13:36:33,729 INFO: Ascii gewählt.
+2025-07-19 13:36:36,095 INFO: Ausgeben ausgeführt.
+2025-07-19 13:46:36,713 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 13:46:36,727 INFO: Datei exportiert und kopiert.
+2025-07-19 13:46:36,728 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 13:46:46,627 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 13:46:46,629 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:46:46,639 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 13:46:46,641 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 13:46:47,349 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 13:46:47,382 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 13:46:47,383 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 13:46:47,383 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 13:46:47,384 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 13:46:47,384 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 13:46:47,384 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 13:46:47,385 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 13:46:47,385 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 13:46:47,386 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 13:46:47,386 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 13:46:47,387 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 13:46:47,387 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 13:46:47,388 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 13:46:47,388 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 13:46:47,484 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 13:46:47,484 INFO: Skript erfolgreich abgeschlossen.
+2025-07-19 13:51:03,972 INFO: Skript gestartet.
+2025-07-19 13:51:05,193 INFO: f-pps wurde gestartet.
+2025-07-19 13:51:13,203 INFO: Fenster i-soft F-PPS aktiviert.
+2025-07-19 13:51:13,726 INFO: Benutzername eingegeben.
+2025-07-19 13:51:20,039 INFO: Passwort eingegeben und Login abgeschickt.
+2025-07-19 13:51:22,398 INFO: Bestellwesen geöffnet.
+2025-07-19 13:51:24,776 INFO: Bestellung geöffnet.
+2025-07-19 13:51:27,125 INFO: Listen geöffnet.
+2025-07-19 13:51:33,770 INFO: Ascii gewählt.
+2025-07-19 13:51:36,117 INFO: Ausgeben ausgeführt.
+2025-07-19 14:01:36,710 INFO: bsterf.exe und fpps.exe beendet.
+2025-07-19 14:01:36,721 INFO: Datei exportiert und kopiert.
+2025-07-19 14:01:36,722 INFO: Exportierte Datei gefunden und ist nicht leer.
+2025-07-19 14:01:46,747 INFO: SSIS-Paket ausgeführt. Rückgabe: 0
+2025-07-19 14:01:46,748 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 14:01:46,760 INFO: SSIS-Paket erfolgreich abgeschlossen.
+2025-07-19 14:01:46,761 INFO: Datei nach erfolgreichem SSIS-Lauf gelöscht.
+2025-07-19 14:01:47,468 INFO: Integrationstest: Anzahl Datensätze in CAD.dbo.Bestellungen_Test geprüft: 277 vorhanden.
+2025-07-19 14:01:47,504 INFO: Integrationstest: Testdatensatz mit Bestellnummer '2128186 ' gefunden.
+2025-07-19 14:01:47,505 INFO: Integrationstest: Spalte 'Bestellnummer' korrekt: '2128186 '
+2025-07-19 14:01:47,505 INFO: Integrationstest: Spalte 'Bestelldatum' korrekt: '31.07.2019 '
+2025-07-19 14:01:47,506 INFO: Integrationstest: Spalte 'Status' korrekt: 'berechnet      '
+2025-07-19 14:01:47,506 INFO: Integrationstest: Spalte 'Liefertermin' korrekt: '00.00.0000 '
+2025-07-19 14:01:47,506 INFO: Integrationstest: Spalte 'Bauvorhabennummer' korrekt: '190002       '
+2025-07-19 14:01:47,507 INFO: Integrationstest: Spalte 'Bauvorhabenname' korrekt: 'MEURER,88279, '
+2025-07-19 14:01:47,507 INFO: Integrationstest: Spalte 'Kuerzel' korrekt: 'A  '
+2025-07-19 14:01:47,507 INFO: Integrationstest: Spalte 'Kostenstellennummer' korrekt: '991100 '
+2025-07-19 14:01:47,507 INFO: Integrationstest: Spalte 'Kostenstellenname' korrekt: 'Ausgliederungsk   '
+2025-07-19 14:01:47,508 INFO: Integrationstest: Spalte 'Lieferantennummer' korrekt: '    748 '
+2025-07-19 14:01:47,508 INFO: Integrationstest: Spalte 'Lieferantenname' korrekt: 'BauGrund Süd    '
+2025-07-19 14:01:47,508 INFO: Integrationstest: Spalte 'Titel' korrekt: 'ERDSONDENBOHRUN'
+2025-07-19 14:01:47,509 INFO: Integrationstest ERFOLGREICH: Alle Prüfungen bestanden und Testdatensatz vollständig und korrekt in der Datenbank vorhanden.
+2025-07-19 14:01:47,598 INFO: Integrationstest erfolgreich abgeschlossen.
+2025-07-19 14:01:47,599 INFO: Skript erfolgreich abgeschlossen.

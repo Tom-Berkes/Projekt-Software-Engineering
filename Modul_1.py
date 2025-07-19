@@ -18,6 +18,14 @@ mail_user = os.getenv("MAIL_USER")
 mail_receiver = os.getenv("MAIL_RECEIVER")
 mail_password = os.getenv("MAIL_PASSWORD")
 
+dateiname = "BILDSC01.TXT"
+quellverzeichnis = r"C:\isoft\f-pps\userdat"
+export_verzeichnis = r"C:\Users\tom.berkes\OneDrive - Schwabenhaus GmbH\Desktop\Projekt Software Engineering"
+
+quellpfad = os.path.join(quellverzeichnis, dateiname)
+export_pfad = os.path.join(export_verzeichnis, dateiname)
+
+
 # Logging-Konfiguration
 logging.basicConfig(
     filename='rpa_log.txt',
@@ -234,8 +242,6 @@ def main():
             logging.info("bsterf.exe und fpps.exe beendet.")
 
             # Datei kopieren
-            quellpfad = r"C:\isoft\f-pps\userdat\BILDSC01.TXT"
-            export_pfad = r"C:\Users\tom.berkes\OneDrive - Schwabenhaus GmbH\Desktop\Projekt Software Engineering\BILDSC01.TXT"
             try:
                 shutil.copyfile(quellpfad, export_pfad)
                 logging.info("Datei exportiert und kopiert.")
